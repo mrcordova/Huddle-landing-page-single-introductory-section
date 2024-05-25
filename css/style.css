@@ -21,8 +21,9 @@ body {
 }
 
 
-.content img {
+.content>img {
     flex: 1;
+  
 }
 .content {
     display: flex;
@@ -30,6 +31,7 @@ body {
     justify-content: center;
     /* min-height: 100svh; */
 }
+
 
 
 
@@ -41,8 +43,34 @@ footer {
     align-self: center;
 }
 
+.text-con>h1 {
+    max-width: 20ch;
+    margin: auto;
+    color: white;
+}
+
 @media(min-width: 760px) {
     body {
         background-image: url('../images/bg-desktop.svg');
     }
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.open-sans-400 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
