@@ -1,0 +1,15 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+
+}
+
+body {
+    background-color: var(--violet);
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+
+    justify-content: center;
+    align-items: center;
+}
