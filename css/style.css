@@ -5,11 +5,16 @@
 }
 
 body {
+    background-image: url('../images/bg-mobile.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: var(--violet);
     display: flex;
     flex-direction: column;
     min-height: 100svh;
 
+    /* align-content: center; */
     justify-content: center;
     align-items: center;
 }
