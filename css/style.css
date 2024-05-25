@@ -19,6 +19,22 @@ body {
 
     /* align-items: center; */
 }
+.box {
+   display: flex;
+}
+
+.box img {
+    width: 100%;
+    object-fit: contain;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* min-height: 100svh; */
+}
+
+
 
 header {
     align-self: flex-start;
@@ -26,4 +42,10 @@ header {
 
 footer {
     align-self: center;
+}
+
+@media(min-width: 760px) {
+    body {
+        background-image: url('../images/bg-desktop.svg');
+    }
 }
