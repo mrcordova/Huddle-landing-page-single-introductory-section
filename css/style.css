@@ -58,6 +58,7 @@ footer {
     align-self: center;
     width: 100%;
     justify-content: center;
+    
     /* margin-block-end: 5.5rem; */
 }
 
@@ -142,6 +143,11 @@ ion-icon:hover {
             max-width: 50ch;
             
     
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
     }
 }
 
