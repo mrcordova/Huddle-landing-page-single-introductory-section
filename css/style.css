@@ -24,6 +24,8 @@ body {
 .content>img {
     flex: 1;
     padding-inline: 4.5rem;
+    padding-block: 1rem 0rem;
+    margin-block-end: 7.2rem;
     /* margin: auto; */
     /* padding-block-end: 5.4rem; */
   
@@ -72,7 +74,7 @@ ion-icon {
     max-width: 20ch;
     /* margin: auto; */
     color: white;
-    padding-block-start: 7rem;
+    /* padding-block-start: 8rem; */
     /* flex: 1; */
     
 }
@@ -80,7 +82,7 @@ ion-icon {
     font-size: 2rem;
     max-width: 33ch;
     color: white;
-    padding-block-start: 0.5rem;
+    padding-block-start: 0.8em;
     /* flex: 1; */
 }
 
