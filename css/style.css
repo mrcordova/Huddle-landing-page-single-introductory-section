@@ -42,13 +42,25 @@ header {
 footer {
     align-self: center;
 }
-
+.text-con {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    flex: 1;
+}
 .text-con>h1 {
     font-size: 3rem;
     max-width: 20ch;
-    margin: auto;
+    /* margin: auto; */
     color: white;
-    text-align: center;
+    
+}
+.text-con>p {
+    font-size: 2rem;
+    max-width: 33ch;
+    color: white;
 }
 
 @media(min-width: 760px) {
