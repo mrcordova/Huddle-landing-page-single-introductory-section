@@ -15,7 +15,7 @@ body {
     min-height: 100svh;
 
     /* align-content: center; */
-    justify-content: space-around;
+    /* justify-content: ; */
 
     /* align-items: center; */
 }
@@ -24,18 +24,22 @@ body {
 .content>img {
     /* flex: 1; */
     padding-inline: 4.5rem;
-    padding-block: 1rem 0rem;
-    margin-block-end: 7.2rem;
+    /* padding-block: 0rem 4rem; */
+    object-fit: contain;
+    /* margin-block-end: 7.2rem; */
     /* flex: 1 1 606px; */
-    
+    flex: 1;
   
 }
+
+
 .content {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: space-around; */
     /* min-height: 100svh; */
-    flex: 1;
+    /* flex: 1; */
 }
 
 
@@ -44,7 +48,9 @@ body {
 header {
     align-self: flex-start;
     margin-inline-start: 3.9rem;
-    margin-block-start: 3.9rem;
+    margin-block-start: 4rem;
+    /* flex: 1; */
+    /* padding-block-start: 3.9rem; */
 }
 
 footer {
@@ -52,6 +58,7 @@ footer {
     align-self: center;
     width: 100%;
     justify-content: center;
+    /* margin-block-end: 5.5rem; */
 }
 
 ion-icon {
@@ -67,33 +74,32 @@ ion-icon {
     flex-direction: column;
     text-align: center;
     align-items: center;
-
-    flex: 1;
-    /* margin: auto; */
+    /* justify-content: center; */
     /* flex: 1; */
+    /* margin: auto; */
+    flex: 1;
     /* gap: 10px; */
     /* flex-basis: content; */
 }
 .text-con>h1 {
     font-size: 3rem;
     max-width: 20ch;
-    /* margin: auto; */
+    
     color: white;
     
-    /* margin-block-start: 0.1rem; */
-    flex: 1;
     
 }
 .text-con>p {
     font-size: 2rem;
     max-width: 33ch;
     color: white;
-   flex: 1;
+    margin-block: 2rem;
+   /* flex: 1 ; */
    
 }
 
 .register-btn {
-    
+   
    
     font-size: 1.5rem;
     padding-inline: 9.5rem;
