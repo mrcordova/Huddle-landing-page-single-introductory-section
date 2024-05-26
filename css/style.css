@@ -69,6 +69,12 @@ ion-icon {
     border-radius: 50px;
     margin-inline: 0.7rem;
 }
+
+ion-icon:hover {
+    color: var(--soft-magenta);
+    border-color: var(--soft-magenta);
+    cursor: pointer;
+}
 .text-con {
     display: flex;
     flex-direction: column;
