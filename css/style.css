@@ -67,7 +67,7 @@ ion-icon {
     border: 2px solid white;
     padding: 0.7rem;
     border-radius: 50px;
-    margin-inline-end: 1rem;
+    margin-inline: 0.7rem;
 }
 .text-con {
     display: flex;
@@ -94,7 +94,7 @@ ion-icon {
     font-size: 2rem;
     max-width: 33ch;
     color: white;
-    margin-block: 2rem 2.4rem;
+    margin-block: 1.8rem 2.6rem;
    /* flex: 1 ; */
    
 }
