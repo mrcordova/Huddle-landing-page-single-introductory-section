@@ -22,12 +22,12 @@ body {
 
 
 .content>img {
-    flex: 1;
+    /* flex: 1; */
     padding-inline: 4.5rem;
     padding-block: 1rem 0rem;
     margin-block-end: 7.2rem;
-    /* margin: auto; */
-    /* padding-block-end: 5.4rem; */
+    /* flex: 1 1 606px; */
+    
   
 }
 .content {
@@ -35,6 +35,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     /* min-height: 100svh; */
+    flex: 1;
 }
 
 
@@ -43,7 +44,7 @@ body {
 header {
     align-self: flex-start;
     margin-inline-start: 3.9rem;
-    /* margin-block-start: 3.9rem; */
+    margin-block-start: 3.9rem;
 }
 
 footer {
@@ -66,31 +67,38 @@ ion-icon {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: auto;
+
+    flex: 1;
+    /* margin: auto; */
     /* flex: 1; */
+    /* gap: 10px; */
+    /* flex-basis: content; */
 }
 .text-con>h1 {
     font-size: 3rem;
     max-width: 20ch;
     /* margin: auto; */
     color: white;
-    /* padding-block-start: 8rem; */
-    /* flex: 1; */
+    
+    /* margin-block-start: 0.1rem; */
+    flex: 1;
     
 }
 .text-con>p {
     font-size: 2rem;
     max-width: 33ch;
     color: white;
-    padding-block-start: 0.8em;
-    /* flex: 1; */
+   flex: 1;
+   
 }
 
 .register-btn {
+    
+   
     font-size: 1.5rem;
-    /* flex: 1; */
     padding-inline: 9.5rem;
     padding-block: 1.3rem;
+    
     background-color: white;
     color: var(--violet);
     border-radius: 40px;
