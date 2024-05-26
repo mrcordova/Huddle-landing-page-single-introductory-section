@@ -44,9 +44,11 @@ footer {
 }
 
 .text-con>h1 {
+    font-size: 3rem;
     max-width: 20ch;
     margin: auto;
     color: white;
+    text-align: center;
 }
 
 @media(min-width: 760px) {
