@@ -23,6 +23,7 @@ body {
 
 .content>img {
     flex: 1;
+    padding-inline: 4.5rem;
   
 }
 .content {
@@ -60,7 +61,7 @@ ion-icon {
     text-align: center;
     align-items: center;
     margin: auto;
-    flex: 1;
+    /* flex: 1; */
 }
 .text-con>h1 {
     font-size: 3rem;
