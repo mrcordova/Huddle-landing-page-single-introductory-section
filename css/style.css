@@ -112,9 +112,30 @@ ion-icon {
     border-radius: 40px;
 }
 
+.register-btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--soft-magenta);
+}
+
 @media(min-width: 760px) {
     body {
         background-image: url('../images/bg-desktop.svg');
+    }
+
+    .text-con {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .icon-con {
+        justify-content: flex-end;
+    }
+    .text-con>p {
+            /* font-size: 2rem; */
+            max-width: 50ch;
+            
+    
     }
 }
 
