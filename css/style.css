@@ -63,6 +63,14 @@ footer {
     color: white;
 }
 
+.register-btn {
+    font-size: 1.5rem;
+    padding-inline: 9.5rem;
+    padding-block: 1.5rem;
+    background-color: white;
+    color: var(--violet);
+}
+
 @media(min-width: 760px) {
     body {
         background-image: url('../images/bg-desktop.svg');
